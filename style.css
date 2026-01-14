@@ -1,0 +1,131 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header p {
+    text-align: center;
+    color: #777;
+    margin-top: 0;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+button#enviarBtn {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button#enviarBtn:hover {
+    background-color: #0056b3;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+/* Targetes de missatge */
+.mensaje-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.mensaje-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.autor {
+    font-weight: bold;
+    color: #333;
+}
+
+.texto-mensaje {
+    margin: 0 0 10px 0;
+    color: #444;
+    line-height: 1.4;
+}
+
+/* Botonera d'accions (Update i Delete) */
+.acciones {
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 10px;
+}
+
+.btn-accion {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.btn-like {
+    color: #e91e63;
+    background-color: #fce4ec;
+}
+
+.btn-like:hover {
+    background-color: #f8bbd0;
+}
+
+.btn-delete {
+    color: #d32f2f;
+    background-color: #ffebee;
+}
+
+.btn-delete:hover {
+    background-color: #ffcdd2;
+}
